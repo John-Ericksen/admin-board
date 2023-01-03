@@ -1,0 +1,24 @@
+body{
+  box-sizing: border-box;
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1 auto;
+}
+
+.sidebar{
+  background-color: blueviolet;
+  flex: 1 1 auto;
+  height: 100%;
+}
+
+.main{
+  background-color: blue;
+  flex: 5 1 auto;
+}
+
