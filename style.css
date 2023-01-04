@@ -20,11 +20,16 @@ body{
 .main{
   background-color: green;
   flex: 5 1 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .header{
   display: grid;
-  grid-template: 10vh/auto;
+  grid-template: 8vh/auto;
+  flex: 1 .5 auto;
+  min-height: 8vh;
+  max-height: 18vh;
 }
 
 .row1, .row2{
@@ -34,5 +39,11 @@ body{
 
 .profile{
   display: flex;
+}
+
+.projects{
+  flex: 10 1 auto;
+  max-height: 85vh;
+  background-color: beige;
 }
 
