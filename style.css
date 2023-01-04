@@ -18,7 +18,11 @@ body{
 }
 
 .main{
-  background-color: blue;
+  background-color: green;
   flex: 5 1 auto;
+}
+
+.searchbar, .profile, .userinfo, .welcome{
+  display: flex;
 }
 
