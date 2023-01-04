@@ -22,7 +22,17 @@ body{
   flex: 5 1 auto;
 }
 
-.searchbar, .profile, .userinfo, .welcome{
+.header{
+  display: grid;
+  grid-template: 10vh/auto;
+}
+
+.row1, .row2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile{
   display: flex;
 }
 
