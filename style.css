@@ -13,14 +13,17 @@ body{
 
 .sidebar{
   background-color: blueviolet;
-  flex: 1 1 auto;
+  flex: 1 0 auto;
   height: 100%;
   max-width: 10vw;
+  min-width: 10vw;
+  padding-left: 10px;
+  flex-basis: 200px;
 }
 
 .main{
   background-color: green;
-  flex: 5 1 auto;
+  flex: 1 1 auto;
   display: flex;
   flex-direction: column;
 }
@@ -52,8 +55,6 @@ body{
 
 .card{
   background-color: aquamarine;
-  
-
 }
 
 .projectcards{
@@ -62,13 +63,14 @@ body{
   grid-auto-rows: 300px 300px;
   grid-auto-columns: 1fr 1fr;
   gap: 4px;
-  padding: 15px;
+
 
 }
 
 .projects{
   flex: 4 1 auto;
   background-color: brown;
+  padding: 15px;
 }
 
 .anouncements_and_trending{
@@ -77,4 +79,26 @@ body{
   max-width: 12vw;
 
 }
+
+.navigation{
+  display: grid;
+  grid-template-rows: repeat(8, 40px);
+  font-size: 30px;
+}
+
+.branding{
+  display: grid;
+  grid-template-rows: repeat(8, 40px);
+  font-size: 30px;
+}
+
+.title{
+  display: flex;
+}
+
+.dashboard_text{
+  font-size: 40px;
+}
+
+
 
