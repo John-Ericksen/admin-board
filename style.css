@@ -17,7 +17,23 @@ body{
   height: 100%;
   max-width: 10vw;
   min-width: 10vw;
-  padding-left: 10px;
+  padding-left: 10px;  
+}
+
+.navigation{
+  margin-top: 40px;
+  display: grid;
+  grid-template-rows: repeat(8, 40px);
+  font-size: 30px;
+  row-gap: 10px;
+
+}
+
+.branding{
+  display: grid;
+  grid-template-rows: repeat(8, 40px);
+  font-size: 30px;
+  row-gap: 10px;
 }
 
 .main{
@@ -79,17 +95,7 @@ body{
 
 }
 
-.navigation{
-  display: grid;
-  grid-template-rows: repeat(8, 40px);
-  font-size: 30px;
-}
 
-.branding{
-  display: grid;
-  grid-template-rows: repeat(8, 40px);
-  font-size: 30px;
-}
 
 .title{
   display: flex;
