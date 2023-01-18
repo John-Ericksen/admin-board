@@ -67,8 +67,6 @@ body{
  margin-bottom: 10px;
 }
 
-
-
 .main_content{
   flex: 10 1 auto;
   max-height: 85vh;
@@ -101,7 +99,18 @@ body{
   flex: 1 1 auto;
   background-color: blueviolet;
   max-width: 12vw;
+}
 
+.announcements{
+  display: grid;
+}
+
+.announcement{
+  background-color: aliceblue;
+}
+
+.user{
+  background-color: yellow;
 }
 
 .dashboard_text{
