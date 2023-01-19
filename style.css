@@ -81,12 +81,10 @@ body{
 
 .projectcards{
   display: grid;
-  grid-template: repeat(2, max(350px, 100%)) / 1fr 1fr;
+  grid-template: repeat(3, max(300px, 100%)) / 1fr 1fr;
   grid-auto-rows: 300px 300px;
   grid-auto-columns: 1fr 1fr;
   gap: 4px;
-
-
 }
 
 .projects{
@@ -95,10 +93,11 @@ body{
   padding: 15px;
 }
 
-.anouncements_and_trending{
+.announcements_and_trending{
   flex: 1 1 auto;
   background-color: blueviolet;
   max-width: 12vw;
+  display: grid;
 }
 
 .announcements{
@@ -107,10 +106,17 @@ body{
 
 .announcement{
   background-color: aliceblue;
+  display: flex;
+}
+
+.trending{
+  display: grid;
 }
 
 .user{
   background-color: yellow;
+  display: flex;
+
 }
 
 .dashboard_text{
